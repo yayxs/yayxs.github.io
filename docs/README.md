@@ -4,7 +4,7 @@ heroImage: /avatar.jpg
 heroText: Hello World
 tagline: 欢迎入坑
 actionText: Read More →
-actionLink: /zh/guide/
+actionLink: /about/aboutMe/
 features:
   - title: Vue.js
     details: 这里暂且就放置Vue踩过的坑以及Vue3相关。

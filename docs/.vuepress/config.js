@@ -13,22 +13,36 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: '前端面试', link: '/htmlBasic/' }, // 内部链接 以docs为根目录
-      { text: '博客', link: 'https://segmentfault.com/u/youngwanli' }, // 外部链接
+      { text: '前端面试', link: '/interview/' }, // 内部链接 以docs为根目录
+      { text: '个人博客', link: 'https://segmentfault.com/u/youngwanli' }, // 外部链接
       // 下拉列表
       {
         text: 'GitHub',
-        items: [{ text: 'GitHub地址', link: 'https://github.com/yayxs' }]
+        items: [
+          { text: 'GitHub地址', link: 'https://github.com/yayxs' },
+          { text: '码云地址', link: 'https://gitee.com/yayxs' }
+        ]
       }
     ],
     sidebar: {
-      // docs文件夹下面的htmlBasic文件夹 文档中md文件 书写的位置(命名随意)
-      '/htmlBasic/': [
-        '/htmlBasic/', // accumulate文件夹的README.md 不是下拉框形式
+      // docs文件夹下面的interview文件夹 文档中md文件 书写的位置(命名随意)
+      '/interview/': [
+        '/interview/', // 文件夹的README.md 不是下拉框形式
         {
-          title: '侧边栏下拉框的标题1',
+          title: 'HTML基础',
           children: [
-            '/ahtmlBasic/JS/test' // 以docs为根目录来查找文件
+            '/interview/html/basic' // 以docs为根目录来查找文件
+            // 上面地址查找的是：docs>interview>html>basic.md 文件
+            // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
+          ]
+        }
+      ],
+      '/miniprogram/': [
+        '/miniprogram/', // 文件夹的README.md 不是下拉框形式
+        {
+          title: 'HTML基础',
+          children: [
+            '/miniprogram/wiki' // 以docs为根目录来查找文件
             // 上面地址查找的是：docs>accumulate>JS>test.md 文件
             // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
           ]

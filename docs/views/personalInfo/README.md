@@ -50,8 +50,8 @@ Web 前端开发，小程序、公众号开发
   - 使用 vue-i18n 进行项目国际化，和组件配套的语言包耗工时
   - 由于是重构过来的项目，大量的静态素材(Image 等)可用，就要求添加统一化 img 地址，同步迁移到服务器
 - 项目成果：
-
-  - 项目暂未上线，可通过 https://vpubao.netlify.com 浏览
+  - 项目暂未上线，可通过 [https://vpubao.netlify.com](https://vpubao.netlify.com)
+    浏览
   - 运用 SPA 开发，并对其做性能优化，相比之前的老项目性能提升超过 30%
 
 #### 项目二：好优 App
@@ -81,7 +81,8 @@ Web 前端开发，小程序、公众号开发
   - 由于项目使用 RESTful 形式的 API 接口，接口请求会遇到跨域问题，通过代理 proxy 解决
   - 使用 JavaScript 图表库 Chart.js 中对后台返回的大量数据可视化展现
 - 项目成果：
-  - 项目暂未上线，码云地址：https://gitee.com/yayxs/oa_project
+  - 项目暂未上线，
+    [码云地址](https://gitee.com/yayxs/oa_project)
   - 在规定时间内完成需求，并成功验收项目，被评为优质开发小组
 
 #### 项目四：CMS 视频音乐后台系统
